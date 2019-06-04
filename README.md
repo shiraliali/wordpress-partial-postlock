@@ -6,6 +6,6 @@ This plugin was created by https://github.com/shiraliali to provide Wordpress us
 This plugin generate a shortcode can put in post content for limiting part of post.
 
 # HOW TO USE
-You can use [lockpost] shortcode by this format `[lockpost] Your premium content part [/lockpost]` in wordpress post editor.
+You can use `[lockpost]` shortcode by this format `[lockpost] Your premium content part [/lockpost]` in wordpress post editor.
 
 enjoy it.
