@@ -1,4 +1,4 @@
- <?php
+<?php
 /*
 Plugin Name: wp-partial-postlock
 Plugin URI: https://github.com/shiraliali/wordpress-partial-postlock
