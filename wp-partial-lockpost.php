@@ -6,7 +6,7 @@ Description: Lock a part of your post with easiest possible way
 Author: ali shirali 
 Author URI: https://github.com/shiraliali
 Text Domain: wp-partial-postlock
-Version: demo 0.0.2
+Version: 0.0.2
 */
 
 
