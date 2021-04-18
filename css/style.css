@@ -13,5 +13,15 @@ Style sheet for WPPLP by AliShirali
 	margin-bottom: 10px;
 	overflow: hidden;
 	white-space:wrap;
+	font-size:16px;
 
+}
+
+#lock-icon{
+	opacity:0.3;
+	font-size:4em;
+	float:right;
+	margin-top:auto;
+	margin-bottom:auto;
+	right:5px;
 }

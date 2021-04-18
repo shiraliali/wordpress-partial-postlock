@@ -22,10 +22,15 @@ function wp_partial_lockpost_css() {
     wp_enqueue_style( 'style', $plugin_url . 'css/style.css' );
     
     // Loading Font Awsome kit from fontawsome cloud servers	
-    wp_enqueue_script( 'fontawsomeicons', '//kit.fontawesome.com/569c0825a1.js' );
+    wp_enqueue_script( 'fontawsomeicons', FONTAWESOME );
 
 }
 add_action( 'wp_enqueue_scripts', 'wp_partial_lockpost_css' );
+
+
+// Include init.php file
+include( plugin_dir_path( __FILE__ ) . 'define/init.php');
+
 
  // Start Function 
  // This function will Make the shortcode And the Message
@@ -42,9 +47,6 @@ add_action( 'wp_enqueue_scripts', 'wp_partial_lockpost_css' );
 
     ob_start();
 	 
-// Getting wordpress Site login Url
-    $login_url = wp_login_url( home_url() );
-	 
 // The Message in Post will shown when User is Not Logged in 
 // You can Add more messages or using your custom shortcodes by using echo
 ?>
@@ -54,19 +56,20 @@ add_action( 'wp_enqueue_scripts', 'wp_partial_lockpost_css' );
 	<?php
 	 
 // Login Message	 
-echo '<b>Please log in to your account for Access to this Part of this post</b><br>';
+echo MSG_Login;
 	 
 // Getting Login Wordpress url and displaying url as Clickable link	 
-echo '<i class="fas fa-key"></i><a href="' . $login_url . '"><strong>  Login To My Account</strong></a>';
+echo LOGIN;
 
 // Lock Icon using font awsome that will showing in right side Inside Login section Box	 
-echo '<i style="opacity:0.3;font-size:4em;float:right;margin-top:auto;margin-bottom:auto;right:5px;" class="fas fa-lock"></i>' ?>
+echo LOCK_ICON; ?>
+
 </div>
 <?php
  }
 
  return ob_get_clean();
 
-} 
+ } 
 // Shortcode created, it will be [lockpost] 
 add_shortcode( 'lockpost', 'lock_post' );
