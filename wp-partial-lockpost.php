@@ -2,9 +2,9 @@
 /*
 Plugin Name: wp-partial-postlock
 Plugin URI: https://github.com/shiraliali/wordpress-partial-postlock
-Description: Lock a part of your post with easiest possible way
+Description: Lock a part of your post with easiest possible way・Created by twitter.com/alyshirali
 Author: ali shirali 
-Author URI: https://github.com/shiraliali
+Author URI: https://twitter.com/alyshirali
 Text Domain: wp-partial-postlock
 Version: 1.0.0
 */
