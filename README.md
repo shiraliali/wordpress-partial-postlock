@@ -1,5 +1,5 @@
 
-> **:warning:** This Repository is no longer active and will be removed soon. New address: https://github.com/shiraliali/Partial-Post-Lock
+> **:warning:** This Repository is no longer active.New address: https://github.com/shiraliali/Partial-Post-Lock
 
 # Wordpress Partial Post Lock
 Lock a part of post content in wordpress with possible easiest way that provided by this plugin.
